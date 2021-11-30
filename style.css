@@ -1,54 +1,40 @@
 /* Universal Selector */
 * {
     box-sizing: border-box;
-    padding: 0;
     margin: 0;
+    padding: 0;
 }
 
-/* H1, H2, H3 */
-h1 {
-    display: inline-block;
-    font-size: 40px;
-}
-
-/* Header CSS */
-.header {
-    padding: 20px;
-    font-family: 'Trebuchet MS', 'Lucida Sans Unicode', 'Lucida Grande', 'Lucida Sans', Arial, sans-serif;
-    background-color: #8eac73;
-    color: #ffffff;
-}
-
-.header nav {
-    padding-top: 15px;
-    margin-right: 20px;
-    float: right;
-    font-size: 20px;
-    font-family: Helvetica, Arial, sans-serif;
-}
-
-.header nav ul li {
-    display: inline-block;
-    margin-left: 25px;
-}
-
-.header nav ul {
-    list-style-type: none;
-    flex-wrap: wrap;
-}
-
-nav ul li a {
-    flex-wrap: wrap;
-    cursor: pointer;
-    border-right: 2px solid white;
-    padding-right: 15px;
-}
-
-a {
-    color: #070707;
-    text-decoration: none;
-}
-
-nav a:hover {
-    color: #fff;
+/* header styling */
+header {
+    display: flex;
+    justify-content: space-between;
+    align-items: center;
+    padding: 1%;
+    background-color: #3f6c97;
+    color: white;
+    font-family: Helvetica, sans-serif;
   }
+
+  /* a tag styling */
+a {
+    text-decoration: none;
+    color:black;
+    font-weight: bold;
+    padding: 10px;
+    border-right: 2px solid white;
+    font-family: Helvetica, sans-serif;
+}
+
+a:hover {
+    color: white;
+}
+/* background image */
+.BackIMG {
+    height: 400px;
+    width: 100%;
+    margin-bottom: 25px;
+    background-image: url("code.jpg");
+    background-size: cover;
+    background-position: center;
+}
