@@ -3,6 +3,7 @@
     box-sizing: border-box;
     margin: 0;
     padding: 0;
+    font-family: Helvetica, sans-serif;
 }
 
 /* header styling */
@@ -13,7 +14,6 @@ header {
     padding: 1%;
     background-color: #3f6c97;
     color: white;
-    font-family: Helvetica, sans-serif;
   }
 
   /* a tag styling */
@@ -23,7 +23,6 @@ a {
     font-weight: bold;
     padding: 10px;
     border-right: 2px solid white;
-    font-family: Helvetica, sans-serif;
 }
 
 h2 {
@@ -52,14 +51,10 @@ a:hover {
     border-radius: 11px
   }
 
-.codee {
-    border-radius:5px solid white;
-  }
- 
+
 /* Conatiner 2 */
-.container2 {
-    padding-top:40px;
-    font-family:Helvetica;
+.container2, .container3 {
+    padding-top:80px;
   }
 
  h2, p {
@@ -70,12 +65,20 @@ a:hover {
 
 p {
     display: inline-block;
-    position: fixed;
+    position: absolute;
 }
 
 .container2 {
     padding-top:40px;
-    font-family:Helvetica;
   }
 
+  .card {
+    display: flex;
+    flex-direction: row;
+    /* Centers along the main axis determined by flex-direction */
+    justify-content: center;
+    width: 90%;
+    /* Uses the height of the viewport */
+    margin: 1px;
+  }
 
