@@ -1,1 +1,3 @@
-# Homework_Week2
+# Master-Portfolio
+
+Within the contents of this Master Portfolio contains the projects written by Deng Wol to display 

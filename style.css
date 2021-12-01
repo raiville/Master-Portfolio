@@ -26,6 +26,11 @@ a {
     font-family: Helvetica, sans-serif;
 }
 
+h2 {
+    padding-left:50px;
+    color: darkblue;
+  }
+
 a:hover {
     color: white;
 }
@@ -46,3 +51,31 @@ a:hover {
     padding:10px;
     border-radius: 11px
   }
+
+.codee {
+    border-radius:5px solid white;
+  }
+ 
+/* Conatiner 2 */
+.container2 {
+    padding-top:40px;
+    font-family:Helvetica;
+  }
+
+ h2, p {
+     display: inline;
+     vertical-align: middle;
+     padding-right:250px;
+    }
+
+p {
+    display: inline-block;
+    position: fixed;
+}
+
+.container2 {
+    padding-top:40px;
+    font-family:Helvetica;
+  }
+
+
