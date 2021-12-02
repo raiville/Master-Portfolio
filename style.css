@@ -16,7 +16,7 @@ header {
     color: white;
   }
 
-  /* a tag styling */
+  /* a and p tag styling */
 a {
     text-decoration: none;
     color:black;
@@ -25,6 +25,12 @@ a {
     border-right: 2px solid white;
 }
 
+p {
+    display: inline-block;
+    position: absolute;
+}
+
+/* h2 styling */
 h2 {
     padding-left:50px;
     color: darkblue;
@@ -48,7 +54,8 @@ a:hover {
     background-color: #3f6c97;
     font-size: 30px;
     padding:10px;
-    border-radius: 11px
+    border-radius: 11px;
+    opacity: 90%;
   }
 
 
@@ -56,6 +63,7 @@ a:hover {
 .container2, .container3 {
     padding-top:80px;
     display: inline-block;
+    justify-content: space-between;
   }
 
  h2, p {
@@ -63,15 +71,6 @@ a:hover {
      vertical-align: middle;
      padding-right:250px;
     }
-
-p {
-    display: inline-block;
-    position: absolute;
-}
-
-.container2 {
-    padding-top:40px;
-  }
 
   /* Conatiner 3 */
 .images {
@@ -91,11 +90,21 @@ position: relative;
 opacity: 70%;
 }
 
+.card:hover {
+    opacity: 100%;
+    cursor: pointer;
+}
+
 .card-seperate {
     display: inline;
     border: 13px solid rgb(236, 234, 205);
     margin-left: 150px;
     opacity: 70%;
+}
+
+.card-seperate:hover {
+    opacity: 100%;
+    cursor: pointer;
 }
 
 h2 .contact-info {
@@ -116,4 +125,11 @@ footer {
 
 footer h2 {
     font-size: 20px;
+}
+
+.contact-info {
+    vertical-align: middle;
+    color: #3f6c97;
+    size: 30px;
+    font-weight: bold;
 }
