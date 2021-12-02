@@ -55,6 +55,7 @@ a:hover {
 /* Conatiner 2 */
 .container2, .container3 {
     padding-top:80px;
+    display: inline-block;
   }
 
  h2, p {
@@ -72,13 +73,47 @@ p {
     padding-top:40px;
   }
 
-  .card {
+  /* Conatiner 3 */
+.images {
     display: flex;
     flex-direction: row;
     /* Centers along the main axis determined by flex-direction */
     justify-content: center;
     width: 90%;
-    /* Uses the height of the viewport */
-    margin: 1px;
+    flex-wrap: wrap;
   }
 
+.card {
+border: 13px solid rgb(236, 234, 205);
+margin-left: 150px;
+margin-top: 50px;
+position: relative;
+opacity: 70%;
+}
+
+.card-seperate {
+    display: inline;
+    border: 13px solid rgb(236, 234, 205);
+    margin-left: 150px;
+    opacity: 70%;
+}
+
+h2 .contact-info {
+     display: inline;
+     vertical-align: middle;
+     padding-right:250px;
+}
+
+/* styling for footer */
+footer {
+    padding: 30px;
+    clear: both;
+    font-family: 'Trebuchet MS', 'Lucida Sans Unicode', 'Lucida Grande', 'Lucida Sans', Arial, sans-serif;
+    text-align: center;
+    top: 80px;
+    bottom: 150px;
+}
+
+footer h2 {
+    font-size: 20px;
+}
