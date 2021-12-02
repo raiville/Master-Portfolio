@@ -17,4 +17,4 @@ Or
 Using the git CLI pasted below
 gh repo clone raiville/Master-Portfolio 
 
-![Repaired Website](screenshot.JPG)
+![Repaired Website](Capture.JPG)
