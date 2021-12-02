@@ -74,6 +74,7 @@ a:hover {
 
   /* Conatiner 3 */
 .images {
+    position: relative;
     display: flex;
     flex-direction: row;
     /* Centers along the main axis determined by flex-direction */
@@ -81,6 +82,22 @@ a:hover {
     width: 90%;
     flex-wrap: wrap;
   }
+
+  .container3 a {
+    text-decoration: none;
+    color: grey;
+    padding-left: 80px;
+    position: relative;
+}
+
+.text-block{
+    padding-bottom: 38px;
+    font-family: Helvetica;
+    background-color: rgb(236, 234, 205);
+    font-weight:bold;
+    font-size: 20px;
+    text-align: left;
+}
 
 .card {
 border: 13px solid rgb(236, 234, 205);
@@ -113,6 +130,14 @@ h2 .contact-info {
      padding-right:250px;
 }
 
+/* Conatiner 4 */
+.contact-info {
+    vertical-align: middle;
+    color: #3f6c97;
+    size: 30px;
+    font-weight: bold;
+}
+
 /* styling for footer */
 footer {
     padding: 30px;
@@ -127,9 +152,19 @@ footer h2 {
     font-size: 20px;
 }
 
-.contact-info {
-    vertical-align: middle;
-    color: #3f6c97;
-    size: 30px;
-    font-weight: bold;
-}
+
+/* Changes the background colour for .card and header tag */
+@media screen and (max-width: 1400px) {
+    .card, .card-seperate {
+        border: 13px solid grey;
+    }
+    /* Change the header color */
+    header, .bttmright {
+      background: #aa5448;
+    }
+
+    .text-block {
+        background-color: grey;
+    }
+  }
+    
