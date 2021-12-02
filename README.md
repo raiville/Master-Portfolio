@@ -3,7 +3,7 @@
 Within the contents of this Master Portfolio contains the projects written by Deng Wol to display an example of my portfolio to 
 prospective employers.
 
-The website is live https://raiville.github.io/HomeWork_Week1/
+The website is live https://raiville.github.io/Master-Portfolio/
 This work can be downloaded by doing a git clone https://github.com/raiville/Master-Portfolio.git in terminal
 This work can also be viewed on https://raiville.github.io/Master-Portfolio/
 
